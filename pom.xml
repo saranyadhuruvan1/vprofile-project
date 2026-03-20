@@ -211,11 +211,7 @@
  <distributionManagement>
     <repository>
         <id>nexus</id>
-        <url>http://<your-nexus-ip>:8081/repository/maven-releases/</url>
+        <url>http://98.81.219.231:8081/repository/vprofile-deploy/</url>
     </repository>
-    <snapshotRepository>
-        <id>nexus</id>
-        <url>http://<your-nexus-ip>:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
 </distributionManagement>
 </project>
