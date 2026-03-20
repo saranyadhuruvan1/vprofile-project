@@ -206,7 +206,10 @@
  		        </executions>
  		</plugin>
 		        </plugins>
-		 <distributionManagement>
+		
+    </build>
+</project>
+ <distributionManagement>
     <repository>
         <id>nexus</id>
         <url>http://<your-nexus-ip>:8081/repository/maven-releases/</url>
@@ -216,6 +219,3 @@
         <url>http://<your-nexus-ip>:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-
-    </build>
-</project>
